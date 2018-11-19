@@ -1,0 +1,12 @@
+*
+!.gitignore 
+!cordicrocc.h
+!cordicrocc.c
+!encoding.h
+!link.ld
+!linker.ld
+!Makefile
+!riscv_test_rocc.h
+!riscv_test.h
+!test_macros.h
+!xcustom.h

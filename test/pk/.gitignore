@@ -1,0 +1,7 @@
+*
+!.gitignore
+!cordicrocc.c
+!cordicrocc_bak.c
+!cordicrocc.h
+!xcustom.h
+
