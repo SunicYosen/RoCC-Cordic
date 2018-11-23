@@ -13,6 +13,7 @@
 
 #define sin(y, phase)                                       \
   ROCC_INSTRUCTION(XCUSTOM_ACC, y, phase, 0, SIN);          
+  //ROCC_INSTRUCTION_RAW_R_R_R
 #define cos(z, phase)                                       \
   ROCC_INSTRUCTION(XCUSTOM_ACC, z, phase, 0, COS);
 

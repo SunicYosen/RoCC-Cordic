@@ -77,6 +77,7 @@
         :: [_rs1] "r" (rs1_), [_rs2] "r" (rs2_));                 \
   }
 
+#endif
 // [TODO] fix these to align with the above approach
 // Macro to pass rs2_ as an immediate
 /*
@@ -91,5 +92,4 @@
                 : [rd] "=r" (rd_)                                 \
                 : [rs1] "i" (rs1_), [rs2] "i" (rs2_), [funct] "i" (funct_))
 */
-
-#endif  // ROCC_SOFTWARE_SRC_XCUSTOM_H_
+ // ROCC_SOFTWARE_SRC_XCUSTOM_H_
