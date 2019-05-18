@@ -25,5 +25,4 @@ int main() {
   printf("cos 0x2AAA = 0x%lx\n", z);
 
   printf("Calculation is done!\n");
- 
 }
